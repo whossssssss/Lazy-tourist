@@ -18,7 +18,7 @@
 - 🖥️ 简洁的交互式界面
 
 ## 🛠️ 技术架构
-![image]([https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://raw.githubusercontent.com/yourusername/lazy-tourist/main/docs/architecture.png)](https://github.com/whossssssss/Lazy-tourist/blob/main/img/architecture.png))
+![image](https://github.com/whossssssss/Lazy-tourist/blob/main/img/architecture.png)
 
 
 ## 🚀 快速开始
@@ -49,7 +49,7 @@ app = LazyTouristApp()
 
 ## 📝 使用示例
 
-![image]([https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://raw.githubusercontent.com/yourusername/lazy-tourist/main/docs/architecture.png)](https://github.com/whossssssss/Lazy-tourist/blob/main/img/architecture.png))
+![image](https://github.com/whossssssss/Lazy-tourist/blob/main/img/architecture.png)
 1. 输入"Paris"搜索巴黎景点
 2. 选择埃菲尔铁塔、卢浮宫等景点
 3. 生成最优游览路线
