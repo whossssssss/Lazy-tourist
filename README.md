@@ -1,7 +1,5 @@
 # 🌍 Lazy Tourist - 智能旅行路线规划工具
 
-![System Architecture](https://raw.githubusercontent.com/yourusername/lazy-tourist/main/docs/architecture.png)
-
 ## 📌 项目简介
 
 **Lazy Tourist** 是一款基于Python开发的智能旅行助手，帮助旅行者快速发现城市热门景点并自动生成优化路线。只需输入城市名称，即可获得：
@@ -20,52 +18,8 @@
 - 🖥️ 简洁的交互式界面
 
 ## 🛠️ 技术架构
+![image]([https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://raw.githubusercontent.com/yourusername/lazy-tourist/main/docs/architecture.png)](https://github.com/whossssssss/Lazy-tourist/blob/main/img/architecture.png))
 
-```plantuml
-@startuml LazyTourist-Architecture
-skinparam monochrome true
-skinparam shadowing false
-skinparam defaultFontName Arial
-skinparam defaultFontSize 14
-
-left to right direction
-
-rectangle "Frontend" {
-  rectangle "Jupyter UI" as ui {
-    rectangle "City Input"
-    rectangle "Attractions List"
-    rectangle "Route Button"
-    rectangle "Results Display"
-  }
-}
-
-rectangle "Backend" {
-  rectangle "DeepSeek API" as deepseek {
-    rectangle "Attraction Data"
-    rectangle "Route Planning"
-  }
-  
-  rectangle "Nominatim" as nominatim {
-    rectangle "Geocoding"
-  }
-}
-
-ui --> deepseek : 1. Request Attractions\n2. Get Route Plans
-ui --> nominatim : Get Coordinates
-
-note right of deepseek
-  • REST API
-  • JSON format
-  • API key secured
-end note
-
-note left of ui
-  • ipywidgets based
-  • Pure presentation
-  • No business logic
-end note
-@enduml
-```
 
 ## 🚀 快速开始
 
@@ -95,20 +49,11 @@ app = LazyTouristApp()
 
 ## 📝 使用示例
 
-![Demo Screenshot](https://raw.githubusercontent.com/yourusername/lazy-tourist/main/docs/demo.gif)
-
+![image]([https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://raw.githubusercontent.com/yourusername/lazy-tourist/main/docs/architecture.png)](https://github.com/whossssssss/Lazy-tourist/blob/main/img/architecture.png))
 1. 输入"Paris"搜索巴黎景点
 2. 选择埃菲尔铁塔、卢浮宫等景点
 3. 生成最优游览路线
 4. 获取路线详情和导航链接
-
-## 🤝 贡献指南
-
-欢迎提交Pull Request或Issue！
-
-## 📄 许可证
-
-MIT License
 
 ---
 
